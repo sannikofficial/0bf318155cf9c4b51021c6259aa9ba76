@@ -1,3 +1,3 @@
-abc = "алё"
+abc = "Hello, World!"
 
 print(abc)
