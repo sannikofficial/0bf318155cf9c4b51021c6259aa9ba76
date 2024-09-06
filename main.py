@@ -1,3 +1,3 @@
-abc = "hih121233i"
+abc = "hihi"
 
 print(abc)
