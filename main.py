@@ -1,1 +1,3 @@
+abc = "hihi"
 
+print(abc)
