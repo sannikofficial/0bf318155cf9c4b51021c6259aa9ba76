@@ -1,3 +1,3 @@
-abc = "hello123123123123123"
+abc = "алё"
 
 print(abc)
