@@ -15,10 +15,10 @@ jobs:
       - name: Update Gist
         run: |
           GIST_ID="0bf318155cf9c4b51021c6259aa9ba76"  # Укажи ID своего Gist
-          FILE_PATH="main.py"  # Укажи путь к файлу в репозитории
+          FILE_PATH="main.py"  # Путь к файлу в репозитории
           curl \
             -X PATCH \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
             -d @- https://api.github.com/gists/$GIST_ID <<EOF
             {
               "files": {
